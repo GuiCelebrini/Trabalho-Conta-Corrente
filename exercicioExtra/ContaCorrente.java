@@ -15,7 +15,7 @@ public class ContaCorrente {
 	}
 	
 	public void sacar(double valorSacado) {
-		double taxaDeOperacao = valorSacado * 0.05;
+		double taxaDeOperacao = valorSacado * 0.005;
 		this.saldo -= (valorSacado+taxaDeOperacao);
 	}
 	

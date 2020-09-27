@@ -9,7 +9,7 @@ public class ClienteEspecial extends ContaCorrente {
 
 	@Override
 	public void sacar(double valorSacado) {
-		double taxaDeOperacao = valorSacado * 0.01;
+		double taxaDeOperacao = valorSacado * 0.001;
 		this.saldo -= (valorSacado+taxaDeOperacao);
 	}
 
